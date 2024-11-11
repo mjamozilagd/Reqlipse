@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <div class="parallax-container">
+        <div class="parallax">
+          <img src="Discover.png" alt="Discover new products" width="50" loading="lazy">
+        </div>
+      </div>
+      
+      <div class="section white">
+        <div class="row container">
+          <h2 class="header">Parallax</h2>
+          <p class="grey-text text-darken-3 lighten-3">
+            <a class="waves-effect waves-light btn-large teal">
+              <i class="fa-solid fa-magnifying-glass-plus left"></i>SHOP NOW
+            </a>
+          </p>
+        </div>
+      </div>
+      
+      <!-- Centered Image Container for Shoes Model -->
+      <div class="center" role="img" aria-label="Featured Shoes Model">
+        <img src="shoes model.png" alt="Shoes Model" width="700" loading="lazy">
+      </div>
+      
+      <!-- Parallax Container for City Silhouette -->
+      <div class="parallax-container">
+        <div class="parallax">
+          <img src="silhouette city.png" alt="City Silhouette" loading="lazy">
+        </div>
+      </div>
+      
+      <!-- Materialize CSS Library and Parallax Initialization -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var parallaxElements = document.querySelectorAll('.parallax');
+          M.Parallax.init(parallaxElements);
+        });
+      </script>
+      
+</head>
+<body>
+    
+</body>
+</html>

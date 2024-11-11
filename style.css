@@ -1,0 +1,24 @@
+*{
+  font-family: "Poppins", sans-serif;
+}
+
+
+.custom-button {
+    font-size: 5.5em; 
+    padding: 100px 100px; 
+  }
+  
+  .custom-button i {
+    font-size: 5.2em;
+  }
+
+
+  .custom-btn {
+    font-size: 5.5em;
+    padding: 30px 60px;
+}
+
+.custom-btn i {
+    font-size: 5.2em;
+    margin-right: 8px;
+}
